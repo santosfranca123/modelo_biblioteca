@@ -9,3 +9,15 @@ pk int
 
 );
 
+create table sala(
+pk int,
+nome varchar(45)
+
+);
+
+create table turma(
+pk int,
+numero_sala varchar(45),
+qtd_aluno int(4)
+
+);
